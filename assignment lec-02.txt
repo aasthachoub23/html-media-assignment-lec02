@@ -1,0 +1,55 @@
+QUES 1.
+
+Enter first number
+2
+Enter second number and value for taking modulus
+3
+6
+Output is: 0
+
+QUES 2.
+
+Enter first number
+3
+Enter second number
+2
+1 1
+
+QUES 3.
+
+2 3
+2
+
+QUES 4.
+
+#include<iostream>
+using namespace std;
+int main() {
+    int r,h,v;
+    cout<<"enter radius: ";
+    cin>>r;
+    cout<<"enter height: ";
+    cin>>h;
+    v=3.14*r*r*h;
+    cout<<"volume of cyclinder is: "<<v;
+}
+
+QUES 5.
+
+#include<iostream>
+using namespace std;
+int main() {
+    char ch1,ch2;
+    cout<<"enter char1: ";
+    cin>>ch1;
+    cout<<"enter char2: ";
+    cin>>ch2;
+    int x=(int)ch1;
+    int y=(int)ch2;
+    cout<<"difference is: "<<(x-y);
+
+}
+
+QUES 6.
+
+49
